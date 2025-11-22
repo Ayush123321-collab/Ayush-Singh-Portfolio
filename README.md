@@ -1,0 +1,1 @@
+This repository contains my personal portfolio website, showcasing my skills, projects, and experience as a web developer. It reflects my journey in tech, my passion for building impactful digital experiences, and my continuous effort to learn and adopt modern web technologies.
