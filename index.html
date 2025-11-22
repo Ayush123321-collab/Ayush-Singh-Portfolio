@@ -1,102 +1,122 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ayush Singh — Portfolio</title>
-  <meta name="description" content="Portfolio of Ayush Singh — Web Developer. Projects, skills and contact." />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ayush Singh — web developer. Portfolio showcasing web development and Python projects." />
+    <title>Ayush Singh</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="loco.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#">Ayush Singh</a>
-      <nav class="main-nav" aria-label="Primary">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact" class="cta">Contact</a>
-      </nav>
-      <button id="nav-toggle" aria-expanded="false" aria-controls="main-nav">☰</button>
-    </div>
-  </header>
+    <div id="minicircle" aria-hidden="true"></div>
+    <div id="main">
+        <header id="hero" role="banner">
+            <nav id="nav" aria-label="Main navigation">
+                <a href="#" id="brand">Ayush Singh</a>
+                <!-- <button aria-expanded="false" aria-controls="menu">MENU+</button> -->
+            </nav>
 
-  <main>
-    <section id="hero" class="hero">
-      <div class="container hero-grid">
-        <div class="hero-text">
-          <h1>Hi, I’m <span>Ayush</span>. I build things for the web.</h1>
-          <p>I’m a web developer focused on creating responsive and accessible user experiences. I love JavaScript, HTML and CSS.</p>
-          <div class="hero-cta">
-            <a href="#projects" class="btn">See my work</a>
-            <a href="#contact" class="btn ghost">Get in touch</a>
-          </div>
-        </div>
-        <div class="hero-art">
-          <img src="assets/profile.webp" alt="Ayush portrait" />
-        </div>
-      </div>
-    </section>
+            <div id="heading">
+                <div class="bounding">
+                    <h1 class="boundingelem">website</h1>
+                </div>
 
-    <section id="about" class="container about">
-      <h2>About me</h2>
-      <p>I am a motivated B.Tech CSE student interested in web development and AI/ML. I make projects for college and hackathons. I enjoy learning modern web tools and building clean UIs.</p>
-    </section>
-
-    <section id="projects" class="container projects">
-      <h2>Projects</h2>
-      <div class="project-grid">
-        <!-- Example project card - duplicate for your projects -->
-        <article class="card">
-          <img src="assets/project-screenshot-1.webp" alt="Project screenshot"/>
-          <div class="card-body">
-            <h3>Portfolio Website</h3>
-            <p>Personal portfolio built with HTML, CSS and JS.</p>
-            <p class="tags">HTML • CSS • JavaScript</p>
-            <div class="card-actions">
-              <a href="https://github.com/Ayush123321/Portfolio" target="_blank" rel="noopener">View code</a>
+                <div class="blocktext">
+                    <div class="bounding">
+                        <h1 class="boundingelem" id="Secondh1">Developer</h1>
+                    </div>
+                    <div class="bounding">
+                        <h5 class="boundingelem">studying in Bhilai</h5>
+                    </div>
+                </div>
             </div>
-          </div>
-        </article>
-        <!-- add more cards here -->
-      </div>
-    </section>
 
-    <section id="skills" class="container skills">
-      <h2>Skills</h2>
-      <ul class="skill-list">
-        <li>HTML &amp; CSS</li>
-        <li>JavaScript</li>
-        <li>Responsive design</li>
-        <li>Git &amp; GitHub</li>
-      </ul>
-    </section>
+            <div id="chhotiheadings">
+                <div class="bounding">
+                    <h5 class="boundingelem">available for freelance</h5>
+                </div>
+                <div class="bounding">
+                    <!-- reserved for future info -->
+                </div>
+            </div>
 
-    <section id="contact" class="container contact">
-      <h2>Contact</h2>
-      <form id="contact-form">
-        <label for="name">Name</label>
-        <input id="name" name="name" required />
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" required />
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
-        <div class="form-actions">
-          <button type="submit" class="btn">Send message</button>
-        </div>
-        <p id="form-status" role="status" aria-live="polite"></p>
-      </form>
-    </section>
-  </main>
+            <div id="herofooter" role="navigation" aria-label="Tech tags">
+                <a href="#" class="tech">Python</a>
+                <a href="#" class="tech">web development</a>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> Ayush Singh — Built with ❤️</p>
-      <p class="small">Hosted on GitHub Pages • <a href="https://github.com/Ayush123321/Portfolio" target="_blank" rel="noopener">Repository</a></p>
+                <div id="iconset" aria-hidden="true">
+                    <div class="circle"><i class="ri-arrow-down-long-line"></i></div>
+                    <div class="circle"><i class="ri-arrow-down-long-line"></i></div>
+                </div>
+            </div>
+        </header>
+
+        <section id="second" aria-label="Highlights">
+            <div class="elem">
+                <img src="photos/plug.png" alt="music icon" />
+                <h1>Music</h1>
+                <h5>2025</h5>
+            </div>
+
+            <div class="elem">
+                <img src="./photos/ixperience.png" alt="experience icon" />
+                <h1>Experience</h1>
+                <h5>2025</h5>
+            </div>
+
+            <div class="elem elemlast">
+                <img src="./photos/hudu.png" alt="course icon" />
+                <h1>Course</h1>
+                <h5>2027</h5>
+            </div>
+        </section>
+
+        <section id="about" aria-labelledby="about-heading">
+            <img src="./photos/own.jpg" alt="Ayush Singh portrait" />
+            <div id="textabout">
+                <h5 id="about-heading">(About me)</h5>
+                <p>
+                    I'm Ayush Singh, a dedicated web developer passionate about creating clean, efficient,
+                    and user-focused digital experiences. I constantly explore new technologies to stay ahead
+                    in the tech world. Along with strong web development skills, I also have knowledge of
+                    Python, which helps me build logical, scalable solutions.
+                </p>
+                <a href="https://bloblayush.blob.core.windows.net/downloads/AYUSH SINGH CV.zip"
+                   target="_blank" rel="noopener noreferrer">
+                    My Resume
+                </a>
+            </div>
+        </section>
+
+        <!-- optional subscribe section left commented -->
+        <!--
+        <section id="subscribe">
+            <h5>(forgot to mention)</h5>
+            <h3>subscribe to my youtube channel <i class="ri-arrow-right-up-line"></i></h3>
+        </section>
+        -->
+
+        <footer id="footer" role="contentinfo">
+            <div id="footerleft">
+                <h5>2025 &copy;</h5>
+            </div>
+
+            <div id="footerright">
+                <a href="https://github.com/Ayush123321" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.instagram.com/aae_yoy_shh/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://www.linkedin.com/in/ayush-singh-16465a28b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://x.com/Ayush4771147900" target="_blank" rel="noopener noreferrer">Twitter</a>
+            </div>
+        </footer>
     </div>
-  </footer>
 
-  <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
